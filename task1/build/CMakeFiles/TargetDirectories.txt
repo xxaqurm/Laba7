@@ -1,0 +1,3 @@
+/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/MyQtProject.dir
+/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/edit_cache.dir
+/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/rebuild_cache.dir
