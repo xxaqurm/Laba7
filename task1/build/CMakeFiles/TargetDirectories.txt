@@ -1,5 +1,0 @@
-/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/task1.dir
-/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/edit_cache.dir
-/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/rebuild_cache.dir
-/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/task1_autogen_timestamp_deps.dir
-/home/xxaqurm/proga/Laba7/task1/build/CMakeFiles/task1_autogen.dir
