@@ -1,5 +1,5 @@
-CMakeFiles/MyQtProject.dir/main.cpp.o: \
- /home/xxaqurm/proga/Laba7/task1/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/task1.dir/main.cpp.o: /home/xxaqurm/proga/Laba7/task1/main.cpp \
+ /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

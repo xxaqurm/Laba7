@@ -117,24 +117,50 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyQtProject
+# Target rules for targets named task1
 
 # Build rule for target.
-MyQtProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyQtProject
-.PHONY : MyQtProject
+task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1
+.PHONY : task1
 
 # fast build rule for target.
-MyQtProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyQtProject.dir/build.make CMakeFiles/MyQtProject.dir/build
-.PHONY : MyQtProject/fast
+task1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/build
+.PHONY : task1/fast
+
+#=============================================================================
+# Target rules for targets named task1_autogen_timestamp_deps
+
+# Build rule for target.
+task1_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1_autogen_timestamp_deps
+.PHONY : task1_autogen_timestamp_deps
+
+# fast build rule for target.
+task1_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1_autogen_timestamp_deps.dir/build.make CMakeFiles/task1_autogen_timestamp_deps.dir/build
+.PHONY : task1_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named task1_autogen
+
+# Build rule for target.
+task1_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task1_autogen
+.PHONY : task1_autogen
+
+# fast build rule for target.
+task1_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1_autogen.dir/build.make CMakeFiles/task1_autogen.dir/build
+.PHONY : task1_autogen/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyQtProject.dir/build.make CMakeFiles/MyQtProject.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +168,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyQtProject.dir/build.make CMakeFiles/MyQtProject.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,8 +176,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyQtProject.dir/build.make CMakeFiles/MyQtProject.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+task1_autogen/mocs_compilation.o: task1_autogen/mocs_compilation.cpp.o
+.PHONY : task1_autogen/mocs_compilation.o
+
+# target to build an object file
+task1_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_autogen/mocs_compilation.cpp.o
+.PHONY : task1_autogen/mocs_compilation.cpp.o
+
+task1_autogen/mocs_compilation.i: task1_autogen/mocs_compilation.cpp.i
+.PHONY : task1_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+task1_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_autogen/mocs_compilation.cpp.i
+.PHONY : task1_autogen/mocs_compilation.cpp.i
+
+task1_autogen/mocs_compilation.s: task1_autogen/mocs_compilation.cpp.s
+.PHONY : task1_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+task1_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1.dir/build.make CMakeFiles/task1.dir/task1_autogen/mocs_compilation.cpp.s
+.PHONY : task1_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -161,10 +211,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyQtProject"
+	@echo "... task1_autogen"
+	@echo "... task1_autogen_timestamp_deps"
+	@echo "... task1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... task1_autogen/mocs_compilation.o"
+	@echo "... task1_autogen/mocs_compilation.i"
+	@echo "... task1_autogen/mocs_compilation.s"
 .PHONY : help
 
 

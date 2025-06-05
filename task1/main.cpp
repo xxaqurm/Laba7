@@ -1,12 +1,14 @@
 #include <QApplication>
-#include <QPushButton>
+#include <QWidget>
+#include <QPainter>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 
-    QPushButton button("Hello Qt with CMake!");
-    button.resize(200, 60);
-    button.show();
+    QWidget window;
+    window.resize(800, 600);
+    window.setWindowTitle("Множество Кантора");
 
+    window.show();
     return app.exec();
 }
